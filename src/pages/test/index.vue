@@ -31,7 +31,7 @@ async function sendImage() {
     body: JSON.stringify({ file_path: filePath.value }),
   })
     .then((res) => {
-      console.log(res)
+      console.warn(res)
     })
 }
 </script>
